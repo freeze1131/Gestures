@@ -11,6 +11,7 @@
 		941805662B6CE21900FEFBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805652B6CE21900FEFBFE /* ContentView.swift */; };
 		941805682B6CE21A00FEFBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941805672B6CE21A00FEFBFE /* Assets.xcassets */; };
 		9418056B2B6CE21A00FEFBFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9418056A2B6CE21A00FEFBFE /* Preview Assets.xcassets */; };
+		941805772B6CE2C900FEFBFE /* NiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805762B6CE2C900FEFBFE /* NiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		941805652B6CE21900FEFBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		941805672B6CE21A00FEFBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9418056A2B6CE21A00FEFBFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		941805762B6CE2C900FEFBFE /* NiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,11 @@
 			children = (
 				941805632B6CE21900FEFBFE /* GesturesApp.swift */,
 				941805652B6CE21900FEFBFE /* ContentView.swift */,
+				941805742B6CE27F00FEFBFE /* AllofThem */,
+				941805712B6CE26A00FEFBFE /* Magnification */,
+				941805752B6CE29800FEFBFE /* Suporting Views */,
+				941805732B6CE27800FEFBFE /* Rotation */,
+				941805722B6CE27200FEFBFE /* Drag */,
 				941805672B6CE21A00FEFBFE /* Assets.xcassets */,
 				941805692B6CE21A00FEFBFE /* Preview Content */,
 			);
@@ -65,6 +72,42 @@
 				9418056A2B6CE21A00FEFBFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		941805712B6CE26A00FEFBFE /* Magnification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Magnification;
+			sourceTree = "<group>";
+		};
+		941805722B6CE27200FEFBFE /* Drag */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Drag;
+			sourceTree = "<group>";
+		};
+		941805732B6CE27800FEFBFE /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rotation;
+			sourceTree = "<group>";
+		};
+		941805742B6CE27F00FEFBFE /* AllofThem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AllofThem;
+			sourceTree = "<group>";
+		};
+		941805752B6CE29800FEFBFE /* Suporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				941805762B6CE2C900FEFBFE /* NiceTextView.swift */,
+			);
+			path = "Suporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941805772B6CE2C900FEFBFE /* NiceTextView.swift in Sources */,
 				941805662B6CE21900FEFBFE /* ContentView.swift in Sources */,
 				941805642B6CE21900FEFBFE /* GesturesApp.swift in Sources */,
 			);
