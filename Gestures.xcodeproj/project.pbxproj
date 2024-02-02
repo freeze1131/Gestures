@@ -26,6 +26,7 @@
 		9418058F2B6D208D00FEFBFE /* RotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418058E2B6D208D00FEFBFE /* RotationView.swift */; };
 		941805912B6D223700FEFBFE /* RotationAndStayStillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805902B6D223700FEFBFE /* RotationAndStayStillView.swift */; };
 		941805932B6D227400FEFBFE /* RotationAndStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805922B6D227400FEFBFE /* RotationAndStoreView.swift */; };
+		941805952B6D259500FEFBFE /* AllGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805942B6D259500FEFBFE /* AllGestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		9418058E2B6D208D00FEFBFE /* RotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationView.swift; sourceTree = "<group>"; };
 		941805902B6D223700FEFBFE /* RotationAndStayStillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAndStayStillView.swift; sourceTree = "<group>"; };
 		941805922B6D227400FEFBFE /* RotationAndStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAndStoreView.swift; sourceTree = "<group>"; };
+		941805942B6D259500FEFBFE /* AllGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		941805742B6CE27F00FEFBFE /* AllofThem */ = {
 			isa = PBXGroup;
 			children = (
+				941805942B6D259500FEFBFE /* AllGestures.swift */,
 			);
 			path = AllofThem;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				941805932B6D227400FEFBFE /* RotationAndStoreView.swift in Sources */,
 				941805872B6D155E00FEFBFE /* Squares.swift in Sources */,
 				941805662B6CE21900FEFBFE /* ContentView.swift in Sources */,
+				941805952B6D259500FEFBFE /* AllGestures.swift in Sources */,
 				9418058B2B6D18EA00FEFBFE /* DragAndStoreView.swift in Sources */,
 				941805892B6D173300FEFBFE /* DragAndStayStillView.swift in Sources */,
 				941805852B6D142F00FEFBFE /* DragBounceBackView.swift in Sources */,
