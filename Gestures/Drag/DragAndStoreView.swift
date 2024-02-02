@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct DragAndStoreView: View {
-    @Binding  var currentOffset:CGSize 
-    @State  var endOffset:CGSize = .zero
+    @State  var currentOffset:CGSize = .zero
+    @Binding  var endOffset:CGSize
 
     
     var offset: CGSize {
@@ -62,5 +62,5 @@ struct DragAndStoreView: View {
 }
 
 #Preview {
-    DragAndStoreView(currentOffset: .constant(.zero))
+    DragAndStoreView(endOffset: .constant(.zero))
 }
