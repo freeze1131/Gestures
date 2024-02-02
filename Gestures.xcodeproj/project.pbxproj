@@ -23,6 +23,9 @@
 		941805892B6D173300FEFBFE /* DragAndStayStillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805882B6D173300FEFBFE /* DragAndStayStillView.swift */; };
 		9418058B2B6D18EA00FEFBFE /* DragAndStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418058A2B6D18EA00FEFBFE /* DragAndStoreView.swift */; };
 		9418058D2B6D1C5300FEFBFE /* RotationSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418058C2B6D1C5300FEFBFE /* RotationSectionView.swift */; };
+		9418058F2B6D208D00FEFBFE /* RotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418058E2B6D208D00FEFBFE /* RotationView.swift */; };
+		941805912B6D223700FEFBFE /* RotationAndStayStillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805902B6D223700FEFBFE /* RotationAndStayStillView.swift */; };
+		941805932B6D227400FEFBFE /* RotationAndStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805922B6D227400FEFBFE /* RotationAndStoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		941805882B6D173300FEFBFE /* DragAndStayStillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndStayStillView.swift; sourceTree = "<group>"; };
 		9418058A2B6D18EA00FEFBFE /* DragAndStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndStoreView.swift; sourceTree = "<group>"; };
 		9418058C2B6D1C5300FEFBFE /* RotationSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationSectionView.swift; sourceTree = "<group>"; };
+		9418058E2B6D208D00FEFBFE /* RotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationView.swift; sourceTree = "<group>"; };
+		941805902B6D223700FEFBFE /* RotationAndStayStillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAndStayStillView.swift; sourceTree = "<group>"; };
+		941805922B6D227400FEFBFE /* RotationAndStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAndStoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				9418058C2B6D1C5300FEFBFE /* RotationSectionView.swift */,
+				9418058E2B6D208D00FEFBFE /* RotationView.swift */,
+				941805902B6D223700FEFBFE /* RotationAndStayStillView.swift */,
+				941805922B6D227400FEFBFE /* RotationAndStoreView.swift */,
 			);
 			path = Rotation;
 			sourceTree = "<group>";
@@ -213,11 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941805912B6D223700FEFBFE /* RotationAndStayStillView.swift in Sources */,
 				941805812B6D0FFD00FEFBFE /* MagnificationStoreView.swift in Sources */,
 				941805772B6CE2C900FEFBFE /* NiceTextView.swift in Sources */,
 				941805832B6D12F500FEFBFE /* DragSectionView.swift in Sources */,
 				9418057F2B6D0F6300FEFBFE /* MagnificationView.swift in Sources */,
 				9418058D2B6D1C5300FEFBFE /* RotationSectionView.swift in Sources */,
+				941805932B6D227400FEFBFE /* RotationAndStoreView.swift in Sources */,
 				941805872B6D155E00FEFBFE /* Squares.swift in Sources */,
 				941805662B6CE21900FEFBFE /* ContentView.swift in Sources */,
 				9418058B2B6D18EA00FEFBFE /* DragAndStoreView.swift in Sources */,
@@ -227,6 +238,7 @@
 				9418057D2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift in Sources */,
 				9418057B2B6D098400FEFBFE /* MagnificationSectionView.swift in Sources */,
 				941805792B6CE4C700FEFBFE /* SquaresRow.swift in Sources */,
+				9418058F2B6D208D00FEFBFE /* RotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

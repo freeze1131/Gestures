@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct RotationSectionView: View {
+    
+    @State private var rotation: Double = 0.0
+    
     var body: some View {
         Section {
             
-            NavigationLink("Rotation Gesture \"Go Back\"", destination: Text("Rotation1"))
+            NavigationLink("Rotation Gesture \"Go Back\"", destination: RotationView())
             
-            NavigationLink("Rotation Gesture \"Stay Still\"", destination: Text("Rotation 2"))
+            NavigationLink("Rotation Gesture \"Stay Still\"", destination: RotationAndStayStillView())
             
-            NavigationLink(destination: Text("Rotation 3")) {
+            NavigationLink(destination: RotationAndStoreView(rotation: $rotation)) {
                 VStack(alignment: .leading){
                     Text("Rotation Gesture \"Stay Still\"")
                     Text("Store Data")

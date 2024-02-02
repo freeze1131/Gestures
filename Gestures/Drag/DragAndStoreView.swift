@@ -19,11 +19,6 @@ struct DragAndStoreView: View {
     
     var body: some View {
         NavigationStack {
-            VStack {
-                Spacer()
-                Squares()
-                Spacer()
-                
                 NiceTextView(text: "Hello, World",
                              bgColor: .black.opacity(0.85),
                              fgColor: .orange.opacity(0.85),
@@ -54,7 +49,7 @@ struct DragAndStoreView: View {
                 
                 
                 Spacer()
-            }
+            
             .navigationTitle("Drag and Store Data")
             .navigationBarTitleDisplayMode(.inline)
         }
