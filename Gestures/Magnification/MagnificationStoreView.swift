@@ -42,7 +42,7 @@ struct MagnificationStoreView: View {
                 
                 Spacer()
             }
-            .navigationTitle("Magnify And Bounce Back")
+            .navigationTitle("Magnify And Store Data")
             .navigationBarTitleDisplayMode(.inline)
         }
        

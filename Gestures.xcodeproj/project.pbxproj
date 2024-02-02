@@ -21,6 +21,7 @@
 		941805852B6D142F00FEFBFE /* DragBounceBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805842B6D142F00FEFBFE /* DragBounceBackView.swift */; };
 		941805872B6D155E00FEFBFE /* Squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805862B6D155E00FEFBFE /* Squares.swift */; };
 		941805892B6D173300FEFBFE /* DragAndStayStillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805882B6D173300FEFBFE /* DragAndStayStillView.swift */; };
+		9418058B2B6D18EA00FEFBFE /* DragAndStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418058A2B6D18EA00FEFBFE /* DragAndStoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		941805842B6D142F00FEFBFE /* DragBounceBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragBounceBackView.swift; sourceTree = "<group>"; };
 		941805862B6D155E00FEFBFE /* Squares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squares.swift; sourceTree = "<group>"; };
 		941805882B6D173300FEFBFE /* DragAndStayStillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndStayStillView.swift; sourceTree = "<group>"; };
+		9418058A2B6D18EA00FEFBFE /* DragAndStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndStoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				941805822B6D12F500FEFBFE /* DragSectionView.swift */,
 				941805842B6D142F00FEFBFE /* DragBounceBackView.swift */,
 				941805882B6D173300FEFBFE /* DragAndStayStillView.swift */,
+				9418058A2B6D18EA00FEFBFE /* DragAndStoreView.swift */,
 			);
 			path = Drag;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				9418057F2B6D0F6300FEFBFE /* MagnificationView.swift in Sources */,
 				941805872B6D155E00FEFBFE /* Squares.swift in Sources */,
 				941805662B6CE21900FEFBFE /* ContentView.swift in Sources */,
+				9418058B2B6D18EA00FEFBFE /* DragAndStoreView.swift in Sources */,
 				941805892B6D173300FEFBFE /* DragAndStayStillView.swift in Sources */,
 				941805852B6D142F00FEFBFE /* DragBounceBackView.swift in Sources */,
 				941805642B6CE21900FEFBFE /* GesturesApp.swift in Sources */,

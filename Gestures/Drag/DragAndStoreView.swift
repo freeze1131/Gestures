@@ -1,5 +1,5 @@
 //
-//  DragAndStayStillView.swift
+//  DragAndStoreView.swift
 //  Gestures
 //
 //  Created by Ahmet Ozen on 2.02.2024.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct DragAndStayStillView: View {
-    @State private var currentOffset:CGSize = .zero
-    @State private var endOffset:CGSize = .zero
+struct DragAndStoreView: View {
+    @Binding  var currentOffset:CGSize 
+    @State  var endOffset:CGSize = .zero
 
     
     var offset: CGSize {
@@ -55,12 +55,12 @@ struct DragAndStayStillView: View {
                 
                 Spacer()
             }
-            .navigationTitle("Drag and Stay Still")
+            .navigationTitle("Drag and Store Data")
             .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
 
 #Preview {
-    DragAndStayStillView()
+    DragAndStoreView(currentOffset: .constant(.zero))
 }

@@ -32,7 +32,7 @@ struct MagnificationView: View {
                 
                 Spacer()
             }
-            .navigationTitle("Magnification")
+            .navigationTitle("Magnification and Stay Still")
             .navigationBarTitleDisplayMode(.inline)
         }
        

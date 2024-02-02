@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DragSectionView: View {
-    
+    @State private var currentOffset: CGSize = .zero
   
     
     var body: some View {
@@ -17,9 +17,16 @@ struct DragSectionView: View {
             
             NavigationLink("Drag Gesture \"Go Back\"", destination: DragBounceBackView())
             
-            NavigationLink("Drag 2", destination: Text("Drag 2"))
+            NavigationLink("Drag Gesture \"Stay Still\"", destination: DragAndStayStillView())
             
-            NavigationLink("Drag 3", destination: Text("Drag 3"))
+            NavigationLink(destination: DragAndStoreView(currentOffset: $currentOffset)) {
+                VStack(alignment: .leading){
+                    Text("Drag Gesture \"Stay Still\"")
+                    Text("Store Data")
+                        .fontWeight(.thin)
+                        
+                }
+            }
     
 
             
