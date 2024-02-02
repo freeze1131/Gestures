@@ -26,7 +26,9 @@ struct DragBounceBackView: View {
                 .gesture(
                 DragGesture()
                     .onChanged({ value in
-                        offset = value.translation
+                        withAnimation {
+                            offset = value.translation
+                        }
                     })
                     .onEnded({ _ in
                         withAnimation {
