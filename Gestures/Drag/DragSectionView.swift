@@ -15,7 +15,7 @@ struct DragSectionView: View {
      
         Section {
             
-            NavigationLink("Drag 1", destination: Text("Drag 1"))
+            NavigationLink("Drag Gesture \"Go Back\"", destination: DragBounceBackView())
             
             NavigationLink("Drag 2", destination: Text("Drag 2"))
             

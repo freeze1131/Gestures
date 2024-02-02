@@ -14,6 +14,7 @@ struct DragBounceBackView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                Spacer()
                 Squares()
                 Spacer()
                 
