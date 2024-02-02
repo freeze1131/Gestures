@@ -27,6 +27,7 @@
 		941805912B6D223700FEFBFE /* RotationAndStayStillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805902B6D223700FEFBFE /* RotationAndStayStillView.swift */; };
 		941805932B6D227400FEFBFE /* RotationAndStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805922B6D227400FEFBFE /* RotationAndStoreView.swift */; };
 		941805952B6D259500FEFBFE /* AllGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805942B6D259500FEFBFE /* AllGestures.swift */; };
+		941805972B6D297B00FEFBFE /* GeneralGestureSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805962B6D297B00FEFBFE /* GeneralGestureSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		941805902B6D223700FEFBFE /* RotationAndStayStillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAndStayStillView.swift; sourceTree = "<group>"; };
 		941805922B6D227400FEFBFE /* RotationAndStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAndStoreView.swift; sourceTree = "<group>"; };
 		941805942B6D259500FEFBFE /* AllGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGestures.swift; sourceTree = "<group>"; };
+		941805962B6D297B00FEFBFE /* GeneralGestureSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralGestureSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				941805942B6D259500FEFBFE /* AllGestures.swift */,
+				941805962B6D297B00FEFBFE /* GeneralGestureSection.swift */,
 			);
 			path = AllofThem;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				941805912B6D223700FEFBFE /* RotationAndStayStillView.swift in Sources */,
+				941805972B6D297B00FEFBFE /* GeneralGestureSection.swift in Sources */,
 				941805812B6D0FFD00FEFBFE /* MagnificationStoreView.swift in Sources */,
 				941805772B6CE2C900FEFBFE /* NiceTextView.swift in Sources */,
 				941805832B6D12F500FEFBFE /* DragSectionView.swift in Sources */,
