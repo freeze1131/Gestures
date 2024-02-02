@@ -17,6 +17,9 @@
 		9418057D2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418057C2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift */; };
 		9418057F2B6D0F6300FEFBFE /* MagnificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418057E2B6D0F6300FEFBFE /* MagnificationView.swift */; };
 		941805812B6D0FFD00FEFBFE /* MagnificationStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805802B6D0FFD00FEFBFE /* MagnificationStoreView.swift */; };
+		941805832B6D12F500FEFBFE /* DragSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805822B6D12F500FEFBFE /* DragSectionView.swift */; };
+		941805852B6D142F00FEFBFE /* DragBounceBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805842B6D142F00FEFBFE /* DragBounceBackView.swift */; };
+		941805872B6D155E00FEFBFE /* Squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805862B6D155E00FEFBFE /* Squares.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		9418057C2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationBounceBackView.swift; sourceTree = "<group>"; };
 		9418057E2B6D0F6300FEFBFE /* MagnificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationView.swift; sourceTree = "<group>"; };
 		941805802B6D0FFD00FEFBFE /* MagnificationStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationStoreView.swift; sourceTree = "<group>"; };
+		941805822B6D12F500FEFBFE /* DragSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragSectionView.swift; sourceTree = "<group>"; };
+		941805842B6D142F00FEFBFE /* DragBounceBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragBounceBackView.swift; sourceTree = "<group>"; };
+		941805862B6D155E00FEFBFE /* Squares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squares.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +71,11 @@
 			children = (
 				941805632B6CE21900FEFBFE /* GesturesApp.swift */,
 				941805652B6CE21900FEFBFE /* ContentView.swift */,
-				941805742B6CE27F00FEFBFE /* AllofThem */,
-				941805712B6CE26A00FEFBFE /* Magnification */,
 				941805752B6CE29800FEFBFE /* Suporting Views */,
-				941805732B6CE27800FEFBFE /* Rotation */,
+				941805712B6CE26A00FEFBFE /* Magnification */,
 				941805722B6CE27200FEFBFE /* Drag */,
+				941805732B6CE27800FEFBFE /* Rotation */,
+				941805742B6CE27F00FEFBFE /* AllofThem */,
 				941805672B6CE21A00FEFBFE /* Assets.xcassets */,
 				941805692B6CE21A00FEFBFE /* Preview Content */,
 			);
@@ -98,6 +104,8 @@
 		941805722B6CE27200FEFBFE /* Drag */ = {
 			isa = PBXGroup;
 			children = (
+				941805822B6D12F500FEFBFE /* DragSectionView.swift */,
+				941805842B6D142F00FEFBFE /* DragBounceBackView.swift */,
 			);
 			path = Drag;
 			sourceTree = "<group>";
@@ -121,6 +129,7 @@
 			children = (
 				941805762B6CE2C900FEFBFE /* NiceTextView.swift */,
 				941805782B6CE4C700FEFBFE /* SquaresRow.swift */,
+				941805862B6D155E00FEFBFE /* Squares.swift */,
 			);
 			path = "Suporting Views";
 			sourceTree = "<group>";
@@ -197,8 +206,11 @@
 			files = (
 				941805812B6D0FFD00FEFBFE /* MagnificationStoreView.swift in Sources */,
 				941805772B6CE2C900FEFBFE /* NiceTextView.swift in Sources */,
+				941805832B6D12F500FEFBFE /* DragSectionView.swift in Sources */,
 				9418057F2B6D0F6300FEFBFE /* MagnificationView.swift in Sources */,
+				941805872B6D155E00FEFBFE /* Squares.swift in Sources */,
 				941805662B6CE21900FEFBFE /* ContentView.swift in Sources */,
+				941805852B6D142F00FEFBFE /* DragBounceBackView.swift in Sources */,
 				941805642B6CE21900FEFBFE /* GesturesApp.swift in Sources */,
 				9418057D2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift in Sources */,
 				9418057B2B6D098400FEFBFE /* MagnificationSectionView.swift in Sources */,

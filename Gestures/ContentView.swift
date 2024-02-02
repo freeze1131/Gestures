@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack {
             Form{
                 MagnificationSectionView()
-
+                DragSectionView()
                 Text("Magnification")
                 Text("Drag")
                 Text("Rotation")

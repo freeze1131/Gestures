@@ -27,10 +27,10 @@ struct SquaresRow: View {
     }
 }
 
+
+
+
+
 #Preview {
-    Grid {
-        ForEach(0 ..< 5) { item in
-            SquaresRow(colors: [.red,.blue,.green])
-        }
-    }
+    SquaresRow(colors: [.red,.blue,.yellow,.black])
 }
