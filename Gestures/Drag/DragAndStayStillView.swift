@@ -29,6 +29,12 @@ struct DragAndStayStillView: View {
                              fgColor: .orange.opacity(0.85),
                              radius: 20)
                 .offset(offset)
+                .onTapGesture {
+                    withAnimation {
+                        currentOffset = .zero
+                        endOffset = .zero
+                    }
+                }
                 .gesture(
                 DragGesture()
                     .onChanged({ value in
