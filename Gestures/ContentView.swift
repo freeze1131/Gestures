@@ -13,9 +13,7 @@ struct ContentView: View {
             Form{
                 MagnificationSectionView()
                 DragSectionView()
-                Text("Magnification")
-                Text("Drag")
-                Text("Rotation")
+                RotationSectionView()
                 
             }
             .navigationTitle("Gestures")
