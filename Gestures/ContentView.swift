@@ -9,13 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Form{
-            Text("Magnification")
-            Text("Drag")
-            Text("Rotation")
-            
+        NavigationStack {
+            Form{
+                MagnificationSectionView()
+                Text("Magnification")
+                Text("Drag")
+                Text("Rotation")
+                
+            }
+            .navigationTitle("Gestures")
         }
-        .padding()
     }
 }
 
