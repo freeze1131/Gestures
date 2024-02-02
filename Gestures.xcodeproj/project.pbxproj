@@ -15,6 +15,8 @@
 		941805792B6CE4C700FEFBFE /* SquaresRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805782B6CE4C700FEFBFE /* SquaresRow.swift */; };
 		9418057B2B6D098400FEFBFE /* MagnificationSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418057A2B6D098400FEFBFE /* MagnificationSectionView.swift */; };
 		9418057D2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418057C2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift */; };
+		9418057F2B6D0F6300FEFBFE /* MagnificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418057E2B6D0F6300FEFBFE /* MagnificationView.swift */; };
+		941805812B6D0FFD00FEFBFE /* MagnificationStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941805802B6D0FFD00FEFBFE /* MagnificationStoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		941805782B6CE4C700FEFBFE /* SquaresRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresRow.swift; sourceTree = "<group>"; };
 		9418057A2B6D098400FEFBFE /* MagnificationSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationSectionView.swift; sourceTree = "<group>"; };
 		9418057C2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationBounceBackView.swift; sourceTree = "<group>"; };
+		9418057E2B6D0F6300FEFBFE /* MagnificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationView.swift; sourceTree = "<group>"; };
+		941805802B6D0FFD00FEFBFE /* MagnificationStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationStoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			children = (
 				9418057A2B6D098400FEFBFE /* MagnificationSectionView.swift */,
 				9418057C2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift */,
+				9418057E2B6D0F6300FEFBFE /* MagnificationView.swift */,
+				941805802B6D0FFD00FEFBFE /* MagnificationStoreView.swift */,
 			);
 			path = Magnification;
 			sourceTree = "<group>";
@@ -189,7 +195,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941805812B6D0FFD00FEFBFE /* MagnificationStoreView.swift in Sources */,
 				941805772B6CE2C900FEFBFE /* NiceTextView.swift in Sources */,
+				9418057F2B6D0F6300FEFBFE /* MagnificationView.swift in Sources */,
 				941805662B6CE21900FEFBFE /* ContentView.swift in Sources */,
 				941805642B6CE21900FEFBFE /* GesturesApp.swift in Sources */,
 				9418057D2B6D0D5A00FEFBFE /* MagnificationBounceBackView.swift in Sources */,

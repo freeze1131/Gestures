@@ -8,19 +8,21 @@
 import SwiftUI
 
 struct MagnificationSectionView: View {
+    @State private var scaleFactor: CGFloat = 1.0
+    
     var body: some View {
      
         Section {
             
             NavigationLink("Magnification Gesture \"Go Back\"", destination: {
-                Text("Example 1")
+                MagnificationBounceBackView()
             })
             
             NavigationLink("Magnification Gesture \"Stay Still\" ", destination: {
-                Text("Example 1")
+                MagnificationView()
             })
            
-            NavigationLink(destination: Text("Example 3")) {
+            NavigationLink(destination: MagnificationStoreView(scaleFactor: $scaleFactor)) {
                 VStack (alignment:.leading){
                     Text("Magnification Gesture")
                     Text("Store state")
