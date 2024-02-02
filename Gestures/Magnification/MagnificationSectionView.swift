@@ -11,12 +11,15 @@ struct MagnificationSectionView: View {
     var body: some View {
      
         Section {
-            NavigationLink("Magnification Gestures", destination: {
-                Text("Example 1")
-            })
+            
             NavigationLink("Magnification Gesture \"Go Back\"", destination: {
                 Text("Example 1")
             })
+            
+            NavigationLink("Magnification Gesture \"Stay Still\" ", destination: {
+                Text("Example 1")
+            })
+           
             NavigationLink(destination: Text("Example 3")) {
                 VStack (alignment:.leading){
                     Text("Magnification Gesture")
